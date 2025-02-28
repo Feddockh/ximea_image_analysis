@@ -1,0 +1,1 @@
+In this fourth trial, I wanted to see how an image taken with a shutter speed of 200 ms would change based on whether I calibrated it at 100 ms or 200 ms. It appears that there is some error when an image is taken at a shutter speed different than the ffc calibration.

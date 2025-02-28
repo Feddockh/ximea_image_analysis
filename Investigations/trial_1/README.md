@@ -1,0 +1,1 @@
+This trail we captured images directly from the ROS package and compared them to the images captured by the camtool software. The FFC was calibrated, but the demosaicing for these plots was incorrect and the bandwidths are also not correct.
