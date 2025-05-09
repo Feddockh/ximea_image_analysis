@@ -116,11 +116,11 @@ if __name__ == "__main__":
         # Extract the selected box from the hypercube
         x1, y1, x2, y2 = box
         x1, y1, x2, y2 = x1 // pattern_size, y1 // pattern_size, x2 // pattern_size, y2 // pattern_size
-        selected_box = hypercube[y1:y2, x1:x2, :]
+        selected_box = hypercube[:, y1:y2, x1:x2]
         print(f"Selected box shape: {selected_box.shape}")
 
         # Compute the average intensity of each spectral band
-        band_intensities[i] = np.mean(selected_box, axis=(0, 1))
+        band_intensities[i] = np.mean(selected_box, axis=(1, 2))
 
     # Compute the average intensity across all images
     avg_band_intensities = np.mean(band_intensities, axis=0)
