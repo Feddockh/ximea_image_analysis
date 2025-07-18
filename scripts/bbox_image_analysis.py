@@ -73,7 +73,9 @@ def plot_spectral_intensities(band_intensities, spectral_range, image_name=""):
         image_name = "Spectral Bands"
     else:
         image_name = f"Spectral Bands ({image_name})"
-    plt.figure(figsize=(10, 5))
+    
+    # Create a high quality figure
+    plt.figure(figsize=(10, 5), dpi=300)
     plt.plot(x_smooth, band_intensities_smooth, linewidth=2)
     plt.plot(x, band_intensities, 'o', color='red')
     plt.xticks(x, [f"{int(wavelength)} nm" for wavelength in spectral_range], rotation=45)
@@ -81,6 +83,10 @@ def plot_spectral_intensities(band_intensities, spectral_range, image_name=""):
     plt.ylabel("Average Intensity")
     plt.title("Spectral Bands")
     plt.grid()
+    
+    # Set y-axis limits from 0 to 255 intensity values
+    plt.ylim(0, 255)
+    
     plt.show()
 
 if __name__ == "__main__":

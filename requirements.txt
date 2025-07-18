@@ -1,0 +1,42 @@
+Brotli @ file:///croot/brotli-split_1736182456865/work
+colorama==0.4.6
+commentjson==0.9.0
+contourpy @ file:///croot/contourpy_1732540045555/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+Cython==3.1.1
+fonttools @ file:///croot/fonttools_1737039080035/work
+imageio @ file:///croot/imageio_1738159938990/work
+kiwisolver @ file:///croot/kiwisolver_1737039087198/work
+lark-parser==0.7.8
+lazy_loader @ file:///croot/lazy_loader_1718176737906/work
+matplotlib==3.10.0
+mkl-service==2.4.0
+mkl_fft @ file:///io/mkl313/mkl_fft_1730824109137/work
+mkl_random @ file:///io/mkl313/mkl_random_1730823916628/work
+networkx @ file:///croot/networkx_1737039604450/work
+numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp310-cp310-linux_x86_64.whl#sha256=d8cd837ed43e87f77e6efaa08e8de927ca030a1c9c5d04624432d6fb9a74a5ee
+numpy-stl==3.2.0
+onshape-to-robot==1.7.5
+opencv-python==4.10.0
+opencv-python-headless==4.10.0
+packaging @ file:///croot/packaging_1734472117206/work
+pillow @ file:///croot/pillow_1738010226202/work
+ply==3.11
+pyparsing @ file:///croot/pyparsing_1731445506121/work
+PyQt5==5.15.10
+PyQt5_sip @ file:///croot/pyqt-split_1736540531116/work/pyqt_sip
+PyQt6_sip @ file:///croot/pyqt-split_1744804475988/work/pyqt_sip
+python-dateutil @ file:///croot/python-dateutil_1716495738603/work
+python-dotenv==1.1.0
+python-utils==3.9.1
+pyzed @ file:///tmp/selfgz30211/pyzed-5.0-cp310-cp310-linux_x86_64.whl
+scikit-image @ file:///croot/scikit-image_1750419472910/work
+scipy @ file:///croot/scipy_1747238027288/work/dist/scipy-1.15.3-cp310-cp310-linux_x86_64.whl#sha256=4055d6b52bbbfc19594ac7c25008889945de175e153afc0935b6415716fa348e
+sip @ file:///croot/sip_1736541134699/work
+six @ file:///croot/six_1744271502820/work
+tifffile @ file:///croot/tifffile_1741164537642/work
+tomli @ file:///opt/conda/conda-bld/tomli_1657175507142/work
+tornado @ file:///croot/tornado_1748956929273/work
+transforms3d==0.4.2
+typing_extensions==4.14.0
+unicodedata2 @ file:///croot/unicodedata2_1736541023050/work
